@@ -38,7 +38,7 @@ GRAPH_TITLE = "Bandwidth (Mbps)"
 # name:  This is the name of the device as it will appear on the graph
 DEVICE_IP = "10.1.0.2"
 DEVICE_SNMP = SNMP_COMMUNITY
-DEVICE_UPTIME_OID = "1.3.6.1.4.1.12356.101.4.1.20.0"
+DEVICE_UPTIME_OID = "1.3.6.1.4.1.12356.101.4.1.20"
 AGGREGATE_INTERFACES = (
     {"oid": ["1.3.6.1.2.1.31.1.1.1.6.2", "1.3.6.1.2.1.31.1.1.1.10.2"], "name": "WAN"},
     {"oid": ["1.3.6.1.2.1.31.1.1.1.6.10", "1.3.6.1.2.1.31.1.1.1.10.10"], "name": "LAN"},
